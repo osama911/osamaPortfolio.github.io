@@ -4856,6 +4856,31 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #navPanel .close:hover {
 	color: #212931;
 }
+.scroll-top-container {
+	display: flex;
+	border-top: 0 !important;
+	justify-content: center;
+}
+.scroll-top-btn {
+	padding: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+	line-height: initial;
+	animation: scroll-up-down 1.8s ease-in-out infinite;
+}
+
+@keyframes scroll-up-down {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-8px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
 
 @media screen and (max-width: 736px) {
 

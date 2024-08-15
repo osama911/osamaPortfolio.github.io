@@ -255,4 +255,9 @@
 
 		}
 
+		// scroll to the top
+		$('.scroll-top-btn').click(() => {
+			$("html, body").animate({ scrollTop: 0 }, "slow");
+		})
+
 })(jQuery);
