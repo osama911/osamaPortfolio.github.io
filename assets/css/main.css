@@ -4923,3 +4923,10 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 }
+
+.split.contact {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
